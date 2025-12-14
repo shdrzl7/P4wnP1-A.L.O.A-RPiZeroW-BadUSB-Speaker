@@ -100,7 +100,7 @@ The physical connections should be made as follows:
 
 ## 🧰 Setup / Installation
 
-1.  Download the image file `P4wnP1-aloha-kali-linux-2023.1-raspberry-pi-zero-w-by-NightRang3r-1.1.2.img.xz` from this GitHub repo.
+1.  Download the image file `P4wnP1-aloha-kali-linux-2023.1-raspberry-pi-zero-w-by-NightRang3r-1.1.2.img.xz` [here.]([https://www.raspberrypi.com/software/](https://drive.google.com/drive/folders/14XCb1sHFjzZa7OnzNZRt5AeTbEyZlZGf)  
 2.  Plug in the 16GB SD card to your computer using an SD card reader.
 3.  Flash the SD card with the downloaded image file using software like [Raspberry Pi Imager](https://www.raspberrypi.com/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 4.  Once flashing is complete, safely eject the card reader and insert the SD card into the Raspberry Pi Zero W.
