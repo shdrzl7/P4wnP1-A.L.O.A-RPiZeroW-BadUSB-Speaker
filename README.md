@@ -86,7 +86,7 @@ Here is the pin layout for the Raspberry Pi Zero W for reference. We will be usi
 <img src="Images/rpi-zero-w-pinout.png" alt="Raspberry Pi Zero W Pinout" width="400"/>
 
 ### Connections
-The physical connections should be made as follows:
+The wiring connections should be made as follows:
 
 <img src="Images/physical-circuit-diagram.jpg" alt="Physical Circuit Diagram" width="400"/>
 <img src="Images/circuit-diagram.jpg" alt="Circuit Diagram" width="400"/>
