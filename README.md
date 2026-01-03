@@ -117,7 +117,7 @@ The wiring connections should be made as follows:
 
 ### Accessing the Web UI
 1.  Once connected to the Wi-Fi, open a web browser on your attacking machine.
-2.  Navigate to **http://172.24.0.1**.
+2.  Navigate to **http://172.24.0.1:8000**.
 3.  You can now use the P4wnP1 web interface to execute HID attacks. For a detailed guide on the UI, refer to the `UI Navigation/` folder.
 
 ## Related Projects
