@@ -68,8 +68,11 @@ You can integrate the Raspberry Pi Zero W and the addon board into any suitable 
 *Note: This image is an example of the project in a USB stick form factor. Your final build may vary.*
 
 ## 📂 Project Structure
-- `Payloads/` - HID scripts in JavaScript for P4wnP1.
+- `Payloads/`
+  - `HIDScript/` - HID scripts in JavaScript for P4wnP1.
+  - `Bash/` - Bash scripts for remote execution.
 - `UI Navigation/` - Screenshots and guides for navigating the P4wnP1 web interface.
+- `others/` - Miscellaneous resources, such as other features. 
 
 ## Wiring / Circuit Diagram
 A typical wired USB speaker is powered directly by the USB port it's plugged into.
@@ -119,6 +122,12 @@ The wiring connections should be made as follows:
 1.  Once connected to the Wi-Fi, open a web browser on your attacking machine.
 2.  Navigate to **http://172.24.0.1:8000**.
 3.  You can now use the P4wnP1 web interface to execute HID attacks. For a detailed guide on the UI, refer to the `UI Navigation/` folder.
+
+### SSH Access
+For direct command-line access to the Raspberry Pi, you can SSH into the device:
+-   **IP Address:** `172.24.0.1`
+-   **Username:** `root`
+-   **Password:** `toor`
 
 ## Related Projects
 1.  **Create a Bad USB using Raspberry Pi Pico**  
