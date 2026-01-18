@@ -4,8 +4,6 @@ This document provides a guide to navigating the P4wnP1 A.L.O.A. web interface. 
 
 After connecting to the P4wnP1's Wi-Fi and navigating to `http://172.24.0.1:8000`, the web UI is presented. This guide focuses on the critical sections required for attack configuration.
 
-<img src="../Images/ui-dashboard.png" alt="P4wnP1 Web UI Dashboard" width="600"/>
-
 ---
 
 ### Common Configuration Buttons
@@ -26,11 +24,11 @@ Most configuration tabs include a standard set of buttons for managing settings:
 
 This tab is used to define how the P4wnP1 device appears to the target host. An incorrect USB profile can prevent HIDScripts from executing correctly.
 
-<img src="../Images/config-buttons.png" alt="USB Settings Tab" width="600"/>
+<img src="../Images/config-buttons.png" alt="USB Settings Tab" width="800"/>
 
 -   **USB Gadget:** The right panel allows selection of the USB gadget type P4wnP1 will impersonate (e.g., Keyboard, Mouse, Mass Storage). Certain HIDScripts require a specific gadget type.
 
-For details on creating custom flash drive images, refer to the guide: [Custom Flash Drive Image Guide](../others).
+For details on creating custom flash drive images, refer to the guide: [Custom Flash Drive Image Guide](../others/flashdrive_creation).
 
 -   **Device Identifiers:** The left panel is for modifying the device's USB identifiers to mask it as a legitimate product. These include:
     -   Manufacturer Name
@@ -54,11 +52,11 @@ This section allows for the automation of actions based on defined conditions or
 A trigger and a corresponding action can then be defined.
 
 -   **Available Triggers include:**
-    <img src="../Images/ui-trigger-events.png" alt="Trigger Event Options" width="400"/>
+    - <img src="../Images/ui-trigger-events.png" alt="Trigger Event Options" width="400"/>
     -   `USB gadget connected to host` (when the USB is plugged in)
     -   `service started` (on boot)
 -   **Available Actions include:**
-    <img src="../Images/ui-trigger-actions-list.png" alt="Available Actions" width="400"/>
+    - <img src="../Images/ui-trigger-actions-list.png" alt="Available Actions" width="400"/>
     -   `start a HIDScript`
     -   `run a bash script`
 
