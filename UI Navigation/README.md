@@ -7,7 +7,7 @@ After connecting to the P4wnP1's Wi-Fi and navigating to `http://172.24.0.1:8000
 ---
 
 ### Common Configuration Buttons
-
+<img src="../Images/config-buttons.png" alt="config buttons" width="800"/>
 Most configuration tabs include a standard set of buttons for managing settings:
 
 -   **Deploy:** Applies the current, temporary configuration changes to the running P4wnP1 instance. These changes are not saved permanently and will be lost on reboot.
@@ -24,11 +24,11 @@ Most configuration tabs include a standard set of buttons for managing settings:
 
 This tab is used to define how the P4wnP1 device appears to the target host. An incorrect USB profile can prevent HIDScripts from executing correctly.
 
-<img src="../Images/config-buttons.png" alt="USB Settings Tab" width="800"/>
+<img src="../Images/ui-usb-settings.png" alt="USB Settings Tab" width="600"/>
 
 -   **USB Gadget:** The right panel allows selection of the USB gadget type P4wnP1 will impersonate (e.g., Keyboard, Mouse, Mass Storage). Certain HIDScripts require a specific gadget type.
 
-For details on creating custom flash drive images, refer to the guide: [Custom Flash Drive Image Guide](../others/flashdrive_creation).
+    - For details on creating custom flash drive images, refer to the guide: [Custom Flash Drive Image Guide](../others/flashdrive_creation).
 
 -   **Device Identifiers:** The left panel is for modifying the device's USB identifiers to mask it as a legitimate product. These include:
     -   Manufacturer Name
