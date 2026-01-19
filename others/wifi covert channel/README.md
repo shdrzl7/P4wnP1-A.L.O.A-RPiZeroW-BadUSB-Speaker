@@ -33,7 +33,7 @@ There are two ways to launch this attack: automatically using a pre-configured t
 
 ### Automated Execution (Using Templates)
 
-This P4wnP1 images comes with pre-configured templates for common attack scenarios. If a template for the Wi-Fi covert channel is available (e.g., `wifi_covert_channel_template`), you can deploy it directly.
+This P4wnP1 images comes with pre-configured templates for common attack scenarios. If a template for the Wi-Fi covert channel is available (e.g., `wifi covert channel`), you can deploy it directly.
 
 1.  Access the web UI at **http://172.24.0.1:8000**.
 2.  Navigate to the **Generic Settings** tab.
@@ -55,9 +55,9 @@ Before starting the attack, ensure the P4wnP1 is configured to be recognized as 
 
 1.  Access the web UI at **http://172.24.0.1:8000**.
 2.  Navigate to the **USB Settings** tab.
-3.  Ensure the USB Gadget profile includes **Keyboard** and **CustomHID**.
+3.  Ensure the USB Gadget profile includes **Keyboard** and **Custom HID Device**.
 4.  Click **Deploy** to apply the settings.
-    <img src="../../Images/wifi-covert-channel-usb.png" alt="WiFi Covert Channel USB Settings" width="600"/>
+    - <img src="../../Images/wifi-covert-channel-usb.png" alt="WiFi Covert Channel USB Settings" width="600"/>
 
 #### 2. Start the C2 Server on P4wnP1
 
@@ -83,7 +83,7 @@ With the C2 server running, deploy the HIDScript from the web UI to the target m
 1.  In the web UI, navigate to the **HIDScript** tab.
 2.  Load the `wifi_covert_channel` script.
 3.  Click **Run** to execute the script.
-    <img src="../../Images/wifi-covert-channel-hidscript.png" alt="HIDScript WiFi Covert Channel" width="600"/>
+    - <img src="../../Images/wifi-covert-channel-hidscript.png" alt="HIDScript WiFi Covert Channel" width="600"/>
 
 #### 4. Interact with the C2 Session
 
