@@ -72,7 +72,7 @@ You can integrate the Raspberry Pi Zero W and the addon board into any suitable 
   - `HIDScript/` - HID scripts in JavaScript for P4wnP1.
   - `Bash/` - Bash scripts for remote execution.
 - `UI Navigation/` - Screenshots and guides for navigating the P4wnP1 web interface.
-- `others/` - Miscellaneous resources, such as other features. 
+- `others/` - Other features / functionalities. 
 
 ## Wiring / Circuit Diagram
 A typical wired USB speaker is powered directly by the USB port it's plugged into.
